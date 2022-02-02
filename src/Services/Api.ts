@@ -40,5 +40,5 @@ class Api {
 
 }
 
-const baseUrl = 'http://localhost:8000/api/';
+const baseUrl = 'http://dev.piratescorp.com:8000/api/';
 export const API = new Api(baseUrl);

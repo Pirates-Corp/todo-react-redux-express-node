@@ -21,7 +21,7 @@ jobs:
         cache: 'npm'
     - run: npm i
     - run: npm run build
-    - run: mv /todo-react-redux-express-node /home/pirates/dev.piratescorp.com
+    - run: mv -v ~/home/pirates/dev.piratescorp.com/_work/todo-react-redux-express-node/todo-react-redux-express-node/build/* ~/home/pirates/dev.piratescorp.com
     
     
     

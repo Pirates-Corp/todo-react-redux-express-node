@@ -21,8 +21,6 @@ jobs:
         cache: 'npm'
     - run: npm i
     - run: npm run build
-    - run: cd /Server
-    - run: node index.js
 
     
     
